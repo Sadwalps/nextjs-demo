@@ -10,6 +10,7 @@ export default function Home() {
             <Link href={'/'}> <button className="bg-violet-800 text-white p-2 ms-2 font-bold hover:bg-pink-700 ">Home</button></Link>
             <Link href={'/about'}> <button className="bg-violet-800 text-white p-2 ms-2 font-bold hover:bg-pink-700 ">About</button></Link>
             <Link href={'/skills'}> <button className="bg-violet-800 text-white p-2 ms-2 font-bold hover:bg-pink-700 ">Skills</button></Link>
+            <Link href={'/projects'}> <button className="bg-violet-800 text-white p-2 ms-2 font-bold hover:bg-pink-700 ">Projects</button></Link>
             <Link href={'/contact'}> <button className="bg-violet-800 text-white p-2 ms-2 font-bold hover:bg-pink-700 ">Contact</button></Link>
           </div>
         </div>
@@ -22,7 +23,7 @@ export default function Home() {
             <h4 className="text-2xl mt-2" >I build responsive, fast, and user-friendly web applications using modern technologies like React and the MERN stack</h4>
             <div className="flex justify-around pt-5">
               <button className="py-3 px-2 bg-amber-50 text-violet-800 text-xl font-bold hover:text-amber-50 hover:bg-violet-600 hover:shadow-amber-50">Expolre portfolio</button>
-             <Link href={'/contact'}> <button className="py-3 px-7 bg-amber-50 text-violet-800 text-xl font-bold hover:text-amber-50 hover:bg-violet-600 hover:shadow-amber-50">Contact</button></Link>
+              <Link href={'/contact'}> <button className="py-3 px-7 bg-amber-50 text-violet-800 text-xl font-bold hover:text-amber-50 hover:bg-violet-600 hover:shadow-amber-50">Contact</button></Link>
             </div>
           </div>
         </div>
